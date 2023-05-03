@@ -1,7 +1,7 @@
 {
   "name": "react_bank",
-  "homepage": "http://ianedwards-jpg.github.io/react_bank",
-  "private": true,
+  "homepage": "https://ianedwards-jpg.github.io/react_bank",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
