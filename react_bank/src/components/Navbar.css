@@ -1,0 +1,36 @@
+/* Stylesheets NavBar */
+
+/* nav {
+    display: flex;
+} */
+
+.navBar {
+    display: flex;
+    position: relative;
+    list-style-type: none;
+     width: 100vw;
+    max-width: 1216px;
+    padding-inline-start: 0px;
+    justify-content: space-between;
+    background-color: silver;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.navBar li {
+    /* padding-left: 10px; */
+    padding: 0.6em 1.2em; 
+}
+
+.navBar li a{
+    text-decoration: none;
+    /* font-size: 12px; */
+    color: white;
+
+}
+
+.navRight {
+    display: flex;
+}

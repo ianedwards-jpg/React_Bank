@@ -1,0 +1,55 @@
+/* Homepage CSS */
+
+#root {
+    /* max-height: 884px; */
+}
+
+.col-form-label {
+    text-align: left;
+}
+
+.container-home {
+    height: 27vw;
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 50px;
+    display: flex;
+    opacity: 100%;
+    background-image: url('../../assets/images/dark_grey_background_textured.jpg');
+    /* box-shadow:  2px 2px 1px rgba(0, 0, 0, 0.2); */
+
+}
+
+.login-home-container {
+    position: relative;
+    color: white;
+    width: 85%;
+    height: fit-content;
+    /* border: solid white 1px; */
+    background-color: silver;
+    border-radius: 20px;
+}
+
+.login-home-form {
+    width: calc(100% - 60px);
+    padding-top: 35px;
+    margin-left: 30px;
+}
+
+.login-home-left {
+    color: white;
+    text-shadow:  50px 50px 50px #000000;
+}
+.login-home-left h1 {
+    box-shadow: inset 1000px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.loginButton{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.navBarCTA {
+    border-radius: 25px;
+    padding-top: 10px   ;
+}
