@@ -6,10 +6,12 @@
 
 .navBar {
     display: flex;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     list-style-type: none;
-     width: 100vw;
-    max-width: 1216px;
+    width: 100vw;
     padding-inline-start: 0px;
     justify-content: space-between;
     background-color: silver;
@@ -33,4 +35,5 @@
 
 .navRight {
     display: flex;
+    padding-right: 24px;
 }
