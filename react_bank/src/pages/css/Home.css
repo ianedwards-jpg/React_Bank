@@ -1,8 +1,8 @@
 /* Homepage CSS */
 
-#root {
-    /* max-height: 884px; */
-}
+/* #root {
+    max-height: 884px;
+} */
 
 .col-form-label {
     text-align: left;
@@ -12,7 +12,7 @@
     height: 27vw;
     width: 100%;
     padding-top: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     opacity: 100%;
     background-image: url('../../assets/images/dark_grey_background_textured.jpg');
