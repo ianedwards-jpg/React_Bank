@@ -1,5 +1,9 @@
 /* Homepage CSS */
 
+#root {
+    /* max-height: 884px; */
+}
+
 .col-form-label {
     text-align: left;
 }
@@ -11,12 +15,9 @@
     margin-top: 50px;
     display: flex;
     opacity: 100%;
-    background-image: 
-    url('../../assets/images/dark_grey_background_textured.jpg'),
-    linear-gradient(45deg, #ccc 85%, transparent 85%),
-    linear-gradient(-45deg, #ccc 85%, transparent 85%),
-    linear-gradient(45deg, transparent 75%, #ccc 75%),
-    linear-gradient(-45deg, transparent 75%, #ccc 75%);;
+    background-image: url('../../assets/images/dark_grey_background_textured.jpg');
+    /* box-shadow:  2px 2px 1px rgba(0, 0, 0, 0.2); */
+
 }
 
 .login-home-container {
@@ -37,6 +38,10 @@
 
 .login-home-left {
     color: white;
+    text-shadow:  50px 50px 50px #000000;
+}
+.login-home-left h1 {
+    box-shadow: inset 1000px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
 .loginButton{

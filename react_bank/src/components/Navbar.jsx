@@ -15,7 +15,12 @@ const Navbar = () => {
     <>
     <nav>
         <ul id="navBar" className='navBar'>
-        <h3>First National Bank of React</h3>
+        <div className='navLeft'>
+        <li>
+          Fake National Bank Of React
+        </li>
+        </div>
+        <div className='navRight'>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -27,7 +32,8 @@ const Navbar = () => {
           <Link to="/about">About/App Design</Link>
         </li>
         <br />
-          <Link to="/signup"> <button className='navBarCTA'>Open A Virtual Account!</button></Link>
+          <Link to="/signup"> <button className='navBarCTA'>Open A FAKE Account!</button></Link>
+        </div>
       </ul>      
     </nav>
     <Routes>
